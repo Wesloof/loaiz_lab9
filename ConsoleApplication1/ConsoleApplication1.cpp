@@ -65,6 +65,7 @@ int main()
 {
 	setlocale(LC_ALL, "");
 	int nG1 = 5;
+
 	int s = 0;
 	int* dist = (int*)malloc(nG1 * sizeof(int));
 	for (int i = 0; i < nG1; i++)
